@@ -1,0 +1,61 @@
+/* Global Properties */
+html {
+    scroll-behavior: smooth;
+}  
+body {
+    background: #6a5acd;
+    font-family: "Baloo Tamma 2", cursive;
+}
+/* Main Heading Font */
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+/* Navigation Section*/
+.navigation-link {
+    border: 2px solid transparent;
+    padding-bottom: 10px;
+}
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #0e0d0b;
+    transition: 0.6s ease;
+}
+.main-container {
+    height: 750px;
+}
+/* Main Section */
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.main_row h1 {
+    font-size: 80px;
+}
+.main_row img {
+    width: auto;
+    height: 500px;
+    padding: 100px;
+  }
+  
+/* About Section */
+.about {
+    background: #070707;
+    border-radius: 8px;
+    padding: 100px;
+  }
+.about img{
+   height: 250px; 
+   padding-top: 50px;
+  }
+/* Project Section */ 
+.card {
+    border-bottom: 8px solid #0c0c0b;
+} 
+/*Resume Section*/
+a:link {
+    color: rgb(36, 33, 33);
+    background-color: transparent;
+    text-decoration: none;
+  }
